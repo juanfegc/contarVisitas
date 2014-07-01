@@ -1,7 +1,7 @@
 #contarVisitas
-Esta app ddependiendo de la url que se use:
-/ --> cuenta y muestra el número de visitantes que recibe la web
-/json --> muestra la estadística de número de visitantes en formato json.
+Esta app dependiendo de la url que se use hará lo siguiente:
+- / --> cuenta y muestra el número de visitantes que recibe la web
+- /json --> muestra la estadística de número de visitantes en formato json.
 
 #PASO A PASO Node.js/Heroku
 Como desplegar mi app Node.js en un PaaS como [Heroku], comentado paso a paso.
