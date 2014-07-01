@@ -3,7 +3,6 @@ var express = require("express");
 var logfmt = require("logfmt");//heroku log
 var app = express();
 var fs = require('fs');
-var path = require('path');
 var file = 'contador.data';
 var contador = 0;
 

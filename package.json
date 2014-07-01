@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/juanfegc/contarVisitas/issues"
   },
-  "homepage": "https://github.com/juanfegc/contarVisitas"
+  "homepage": "https://github.com/juanfegc/contarVisitas",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.4.5"
+  }
 }

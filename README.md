@@ -1,7 +1,7 @@
 #contarVisitas
 Esta app dependiendo de la url que se use hará lo siguiente:
-- / --> cuenta y muestra el número de visitantes que recibe la web
-- /json --> muestra la estadística de número de visitantes en formato json.
+- http://contarvisitas.herokuapp.com/ --> cuenta y muestra el número de visitantes que recibe la web
+- http://contarvisitas.herokuapp.com/json --> muestra la estadística de número de visitantes en formato json.
 
 #PASO A PASO Node.js/Heroku
 Como desplegar mi app Node.js en un PaaS como [Heroku], comentado paso a paso.
@@ -64,9 +64,9 @@ Desplegamos nuestra app en Heroku.
 ``` sh
 git push heroku master
 ```
-(opcional) renombramos el nombre de la webapp que heroku nos asignó por defecto cuando lo creamos con el comando `heroku create`.
+(opcional) renombramos el nombre de la webapp que heroku nos asignó por defecto cuando lo creamos con el comando `heroku create` en mi caso fué (http://limitless-island-6137.herokuapp.com/) y la voy a cambiar por (http://contarvisitas.herokuapp.com/).
 ``` sh
-heroku apps:rename contarVisitas
+heroku apps:rename contarvisitas
 ```
 Abrimos la app en nuestro navegador
 ``` sh
