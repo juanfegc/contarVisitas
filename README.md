@@ -1,4 +1,4 @@
-#node2Heroku
+#contarVisitas
 Esta app ddependiendo de la url que se use:
 / --> cuenta y muestra el número de visitantes que recibe la web
 /json --> muestra la estadística de número de visitantes en formato json.
@@ -21,7 +21,7 @@ cd contarVisitas
 git init
 git add .
 git commit -m "first commit"
-git remote add origin http://github.com/juanfegc/node2heroku.git
+git remote add origin https://github.com/juanfegc/contarVisitas.git
 git push -u origin master
 ```
 
