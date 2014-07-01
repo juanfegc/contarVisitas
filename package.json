@@ -1,27 +1,20 @@
 {
   "name": "contarVisitas",
   "version": "0.0.0",
-  "description": "web app para probar despliegue en heroku",
+  "description": "Esta app dependiendo de la url que se use hará lo siguiente: - / --> cuenta y muestra el número de visitantes que recibe la web - /json --> muestra la estadística de número de visitantes en formato json.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/juanfegc/contarVisitas.git"
   },
-  "keywords": [
-    "heroku",
-    "nodeJS"
-  ],
-  "author": "J.Fernando Godoy Caba",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juanfegc/contarVisitas/issues"
   },
-  "homepage": "https://github.com/juanfegc/contarVisitas",
-  "dependencies": {
-    "express": "^4.4.5",
-    "logfmt": "^1.1.2"
-  }
+  "homepage": "https://github.com/juanfegc/contarVisitas"
 }
