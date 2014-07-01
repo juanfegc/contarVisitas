@@ -9,7 +9,7 @@ Como desplegar mi app Node.js en un PaaS como [Heroku], comentado paso a paso.
 [Heroku]:http://www.heroku.com
 
 # ![GitHub](http://www.grails48.com/static/images/github-logo3.png)
-Creamos un nuevo repositorio remoto en [GitHub] para nuestra app (http://github.com/juanfegc/node2heroku.git).
+Creamos un nuevo repositorio remoto en [GitHub] para nuestra app (http://github.com/juanfegc/contarVisitas.git).
 
 [GitHub]:https://github.com/
 
