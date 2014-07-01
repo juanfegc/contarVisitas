@@ -72,5 +72,9 @@ Abrimos la app en nuestro navegador
 ``` sh
 heroku open
 ```
+Consultamos el log de Heroku
+``` sh
+heroku logs
+```
 
 **by J.Fernando Godoy Caba**
