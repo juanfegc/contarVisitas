@@ -1,5 +1,5 @@
 #contarVisitas
-Esta app dependiendo de la url que se use hará lo siguiente:
+Esta app, dependiendo de la url que se use, hará lo siguiente:
 - http://contarvisitas.herokuapp.com/ --> cuenta y muestra el número de visitantes que recibe la web
 - http://contarvisitas.herokuapp.com/json --> muestra la estadística de número de visitantes en formato json.
 
@@ -26,7 +26,7 @@ git push -u origin master
 ```
 
 # ![Node.js](http://nodejs.org/images/logos/nodejs.png)
-En el directorio raiz de nuestra app creamos un archivo **package.json** para declarar todas las dependencias de mi app (fs, express, logfmt) y las instalamos con npm.
+En el directorio raiz de nuestra app creamos un archivo **package.json** para declarar todas las dependencias de mi app (express, logfmt) y las instalamos con npm.
 ``` sh
 cd contarVisitas
 npm init

@@ -1,13 +1,14 @@
 // server.js
-var express = require("express");
-var logfmt = require("logfmt");//heroku log
-var app = express();
 var fs = require('fs');
+var logfmt = require("logfmt");//heroku logs
+var express = require("express");//servidor web
+var app = express();
 var file = 'contador.data';
 var contador = 0;
 
 app.use(logfmt.requestLogger());
 
+//http://contarvisitas.herokuapp.com/
 app.get('/', function(req, res) {
     fs.exists(file, function(exists){
         if (exists) {
@@ -25,6 +26,7 @@ app.get('/', function(req, res) {
     });
 });
 
+//http://contarvisitas.herokuapp.com/json
 app.get('/json', function(req, res) {
     fs.exists(file, function(exists){
         if (exists && contador>0) {
@@ -34,7 +36,7 @@ app.get('/json', function(req, res) {
                 contador = new Number(contador).valueOf();
 
                 var objetoJSON = {};
-                //    clave    valor
+                //         clave    valor
                 objetoJSON.saludo = "Hola";
                 objetoJSON.usuarios = contador;
                 var jsonString = JSON.stringify(objetoJSON);
@@ -53,7 +55,7 @@ app.listen(port, function() {
   console.log("Server listening on " + port);
 });
 
-
+//persistencia contador
 function saveContador(datos){
     contador = datos;
     fs.writeFile(file, datos, function (err) {
